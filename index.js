@@ -1,10 +1,8 @@
 import { ApolloServer } from '@apollo/server'
 import { startStandaloneServer } from '@apollo/server/standalone'
 
-
 // types
 import { typeDefs } from './schema.js'
-
 // resolvers
 import {resolvers}  from './resolvers.js'
 
